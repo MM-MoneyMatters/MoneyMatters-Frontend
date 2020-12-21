@@ -1,0 +1,45 @@
+@import "../../base.scss";
+
+.header {
+  grid-area: head;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-right: 23px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: white;
+  .title {
+    margin: auto;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    color: #464670;
+  }
+
+  .user-matters {
+    display: inline-flex;
+    .notification {
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      border-color: transparent;
+      margin-right: 24px;
+
+      svg {
+        width: 20px;
+        height: 21px;
+        margin-bottom: 5px;
+      }
+    }
+    .settings {
+      button {
+        background-color: transparent;
+        border-color: transparent;
+        color: black;
+      }
+    }
+  }
+}
