@@ -8,7 +8,11 @@ export const App = (props) => {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Dashboard} />
+        <Route path="/">
+          <Layout>
+            <Dashboard />
+          </Layout>
+        </Route>
       </Switch>
     </Router>
   );
