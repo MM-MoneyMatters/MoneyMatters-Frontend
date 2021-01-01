@@ -1,0 +1,13 @@
+@import "../../base.scss";
+
+.layout {
+  background-color: #edeff2;
+  height: 100%;
+  display: grid;
+  grid-template: "nav head" "nav main" "footer footer";
+  grid-template-columns: 60px auto;
+  grid-template-rows: 50px auto 40px;
+  .main-content {
+    grid-area: main;
+  }
+}
