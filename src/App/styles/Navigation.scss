@@ -1,4 +1,15 @@
 
-.Navigation {
-    
+.navigation {
+    grid-area: nav;
+    background-color: #dce1ee;
+    .icon {
+        background-color: transparent;
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .icon :hover {
+        background-color: transparent;
+    }
 }
