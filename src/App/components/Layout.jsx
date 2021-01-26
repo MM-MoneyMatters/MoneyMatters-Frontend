@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "./Header";
+import { Navigation } from "./Navigation";
 import "../styles/Layout.scss";
 
 export const Layout = ({ children }) => {
@@ -8,7 +9,7 @@ export const Layout = ({ children }) => {
       <Header />
       {/*Side navigation goes here*/}
       <div className="main-content">{children}</div>
-      {/*Footer goes here */}
+      <Navigation />
     </div>
   );
 };
