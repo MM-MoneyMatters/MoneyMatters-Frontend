@@ -2,11 +2,18 @@
 .navigation {
     grid-area: nav;
     background-color: #dce1ee;
-    .icon {
-        background-color: transparent;
-        svg {
-            height: 20px;
-            width: 20px;
+    .controls {
+    display:flex; 
+    flex-direction: column;
+    margin-top: 100px;
+        .icon {
+            background-color: transparent;
+            border: none;
+            margin-bottom: 100px;
+            svg {
+                height: 20px;
+                width: 20px;
+            }
         }
     }
     .icon :hover {

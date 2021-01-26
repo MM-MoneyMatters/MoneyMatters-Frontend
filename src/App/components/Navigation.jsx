@@ -8,17 +8,19 @@ import { ReactComponent as Transactions } from "../icons/Transactions.svg";
 export const Navigation = () => {
     return (
         <div className="navigation">
-            <Button className="icon budget">
-                <Budget />
-            </Button>
+            <div className="controls">
+                <Button className="icon budget">
+                    <Budget />
+                </Button>
 
-            <Button className="icon goals">
-                <Goals />
-            </Button>
+                <Button className="icon goals">
+                    <Goals />
+                </Button>
 
-            <Button className="icon transactions">
-                <Transactions />
-            </Button>
+                <Button className="icon transactions">
+                    <Transactions />
+                </Button>
+            </div>
         </div>
     );
 };
